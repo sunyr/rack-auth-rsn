@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>---</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">---</h1>
+</div>
+<p>title: RSN (research and study note) for Rack Authentication author: Huang Wei id: rsn.rack_auth % ---</p>
+<h1 id="introduction">Introduction</h1>
+<p>实践使用cucumber测试调研和验证某项技术的方法。</p>
+<p>基础知识</p>
+<ol style="list-style-type: decimal">
+<li>Web Server, CGI</li>
+<li><a href="http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html">Introducing Rack</a></li>
+</ol>
+<p>作为Web服务器和Web Framework之间的共通interface，Rack定义一个函数<code>call</code>， 接受一个Hash参数（包含env定义），并返回三个值组成的数组：</p>
+<pre><code>数字（status code）, Hash（header），Array（body parts）。</code></pre>
+<p>如：</p>
+<pre><code>class HelloWorld
+  def call(env)
+    [200, {&quot;Content-Type&quot; =&gt; &quot;text/plain&quot;}, [&quot;Hello world!&quot;]]
+  end
+end</code></pre>
+<p>参照<code>Test1</code>。</p>
+<h1 id="rack-test">RACK Test</h1>
+<h1 id="rack-middleware">Rack Middleware</h1>
+</body>
+</html>

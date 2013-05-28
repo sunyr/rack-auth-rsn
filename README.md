@@ -9,9 +9,7 @@ Introduction
 
 实践使用cucumber测试调研和验证某项技术的方法。
 
-基础知识
-
-1. Web Server, CGI
+1. 理解Web Server, 了解一些CGI，Web Framework的基础知识
 2. [Introducing Rack](http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html)
 
 作为Web服务器和Web Framework之间的共通interface，Rack定义一个函数`call`，
@@ -27,12 +25,18 @@ Introduction
       end
     end
 
-参照`Test1`。
+参照`hello_world.feature`。
 
-
-RACK Test
-=============
-
+3. 理解Authentication和Authorization
 
 Rack Middleware
 ================
+
+use和调用的顺序。
+
+Rack::Warden和测试
+========================
+
+Rack::Warden和Cookie
+======================
+

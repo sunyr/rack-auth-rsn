@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/jsgantt.css" />
+    <script language="javascript" src="./js/jsgantt.js"></script>
+    <title>Gantt Chart | [RSN] RACK-AUTH的设置和使用</title>
+</head>
+<body>
+  <h2>[RSN] RACK-AUTH的设置和使用
+      
+  </h2>
+
+<div style="position:relative" class="gantt" id="GanttChartDIV"></div>
+<script>
+    var g = new JSGantt.GanttChart('g',document.getElementById('GanttChartDIV'), 'day');
+    g.setShowRes(1); // Show/Hide Responsible (0/1)
+    g.setShowDur(1); // Show/Hide Duration (0/1)
+    g.setShowComp(0); //
+    g.setCaptionType('Caption');  // Set to Show Caption
+    g.setShowStartDate(0); // Show/Hide Start Date(0/1)
+    g.setShowEndDate(0); // Show/Hide End Date(0/1)
+    //g.setDateDisplayFormat('yyyy-mm-dd') // Set format to display dates ('mm/dd/yyyy', 'dd/mm/yyyy', 'yyyy-mm-dd')
+    g.setFormatArr("day","week","month") // Set format options (up to 4 : "minute","hour","day","week","month","quarter")
+
+    if( g ) {
+          g.AddTaskItem(new JSGantt.TaskItem(10,'设计整体架构','05/28/2013','05/31/2013','FFD700','',0,'黄巍',0,1,0,1,'',''));
+
+          g.AddTaskItem(new JSGantt.TaskItem(11,'列举需测试的功能','05/28/2013','05/29/2013','FFD700','',0,'黄巍',0,0,10,1,'','黄巍'));
+
+          g.AddTaskItem(new JSGantt.TaskItem(12,'设置cucumber测试环境','05/29/2013','05/31/2013','B0C4DE','',0,'黄巍',0,0,10,1,'','黄巍'));
+
+        g.Draw();
+        g.DrawDependencies();
+    }
+    else
+    {
+        alert("not defined");
+    }
+</script>
+
+
+<h3>Recent Git Log</h3> 
+<pre><code>
+* <em style='color:grey'>f8f719d871983e5cabedcce5b2169485f93e7fbb</em>
+  <strong>2013-05-28 11:13</strong> By Huang Wei &lt;huangw@pe-po.com&gt;
+    <strong style='color:green'>add readme and gitignore file.</strong>
+  
+
+</code></pre>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+% ----
+title: "[RSN] RACK-AUTH的设置和使用"
+status: producing
+leader: huangw
+moderator: sunyr
+team: [xuyc songcy]
+year: 2013
+% ----
+
+[+] stucture: 设计整体架构 05/28-05/31 @huangw
+  [++] readme: 列举需测试的功能 05/28-05/29 @huangw
+  [++] cucumber: 设置cucumber测试环境 05/29-05/31 @huangw

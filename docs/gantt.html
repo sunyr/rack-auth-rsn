@@ -26,9 +26,17 @@
     if( g ) {
           g.AddTaskItem(new JSGantt.TaskItem(10,'设计整体架构','05/28/2013','05/31/2013','FFD700','',0,'黄巍',0,1,0,1,'',''));
 
-          g.AddTaskItem(new JSGantt.TaskItem(11,'列举需测试的功能','05/28/2013','05/29/2013','FFD700','',0,'黄巍',0,0,10,1,'','黄巍'));
+          g.AddTaskItem(new JSGantt.TaskItem(11,'列举需测试的功能','05/28/2013','05/29/2013','FFFF00','',0,'黄巍',99,0,10,1,'','黄巍:99\%'));
 
           g.AddTaskItem(new JSGantt.TaskItem(12,'设置cucumber测试环境','05/29/2013','05/31/2013','B0C4DE','',0,'黄巍',0,0,10,1,'','黄巍'));
+
+          g.AddTaskItem(new JSGantt.TaskItem(14,'通过测试验证rack-warden功能','05/28/2013','05/31/2013','FFD700','',0,'黄巍',0,1,0,1,'',''));
+
+          g.AddTaskItem(new JSGantt.TaskItem(15,'测试rack middle ware','05/28/2013','05/28/2013','FFA500','',0,'黄巍',0,0,14,1,'','黄巍'));
+
+          g.AddTaskItem(new JSGantt.TaskItem(16,'测试warden基本功能','05/28/2013','05/29/2013','FFD700','',0,'黄巍',0,0,14,1,'','黄巍'));
+
+          g.AddTaskItem(new JSGantt.TaskItem(17,'验证warden所有cookie内容','05/29/2013','05/31/2013','B0C4DE','',0,'黄巍',0,0,14,1,'','黄巍'));
 
         g.Draw();
         g.DrawDependencies();
@@ -42,6 +50,31 @@
 
 <h3>Recent Git Log</h3> 
 <pre><code>
+* <em style='color:grey'>7bc5223fc98d02989986d01eadb85d84a754ac42</em>
+| <strong>2013-05-28 16:14</strong> By Huang Wei &lt;huangw@pe-po.com&gt;
+| | <strong style='color:green'>update roadmap</strong>
+| 
+|  
+* <em style='color:grey'>c8499052917aab68e26710028678d80fe10cf42c</em>
+| <strong>2013-05-28 16:01</strong> By Huang Wei &lt;huangw@pe-po.com&gt;
+| | <strong style='color:green'>update progress of task readme to 99</strong>
+| 
+|  
+* <em style='color:grey'>396592a7d0d88bac5e65bee3d993e3db9f13ae2d</em>
+| <strong>2013-05-28 14:39</strong> By Huang Wei &lt;huangw@pe-po.com&gt;
+| | <strong style='color:green'>update progress of task readme to 30</strong>
+| 
+|  
+* <em style='color:grey'>173c3b18c540db5766104675cac13d0fc9bc97ee</em>
+| <strong>2013-05-28 11:37</strong> By Huang Wei &lt;huangw@pe-po.com&gt;
+| | <strong style='color:green'>update progress of task readme to 10</strong>
+| 
+|  
+* <em style='color:grey'>04747cd15b5639acf83a38528a84cc92216b2fb6</em>
+| <strong>2013-05-28 11:24</strong> By Huang Wei &lt;huangw@pe-po.com&gt;
+| | <strong style='color:green'>update Gantt chart</strong>
+| 
+|  
 * <em style='color:grey'>f8f719d871983e5cabedcce5b2169485f93e7fbb</em>
   <strong>2013-05-28 11:13</strong> By Huang Wei &lt;huangw@pe-po.com&gt;
     <strong style='color:green'>add readme and gitignore file.</strong>

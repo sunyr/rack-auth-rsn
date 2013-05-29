@@ -9,7 +9,7 @@ year: 2013
 
 [+] stucture: 设计整体架构 05/28-05/31 @huangw
   [++] readme: 列举需测试的功能 05/28-05/29 @huangw:05/28
-  [++] cucumber: 设置cucumber测试环境 05/29-05/31 @huangw:10
+  [++] cucumber: 设置cucumber测试环境 05/29-05/31 @huangw:99
 
 [+] tests: 通过测试验证rack-warden功能 05/28-05/31 @huangw
   [++] middle: 测试rack middle ware 05/28-05/28 @huangw

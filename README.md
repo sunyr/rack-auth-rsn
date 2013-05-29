@@ -41,7 +41,9 @@ Rack基础
 Rack Middleware
 ================
 
-Middleware并不需要特殊的写法，
+所谓rack middleware依然是一个普通的rack app，只需要在construct函数里接收另一个app即可:
+
+
 
 use和调用的顺序。
 

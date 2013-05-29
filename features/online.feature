@@ -1,4 +1,4 @@
-Feature: Hello world example for Rack App
+Feature: One line example for Rack App
 
 Scenario: Get hello world
     Given I am testing "oneline.ru"

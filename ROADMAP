@@ -13,5 +13,5 @@ year: 2013
 
 [+] tests: 通过测试验证rack-warden功能 05/28-05/31 @huangw
   [++] middle: 测试rack middle ware 05/28-05/28 @huangw:05/30
-  [++] warden: 测试warden基本功能 05/28-05/29 @huangw
+  [++] warden: 测试warden基本功能 05/28-05/29 @huangw:10
   [++] cookie: 验证warden所有cookie内容 05/29-05/31 @huangw

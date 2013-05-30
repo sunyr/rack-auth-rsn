@@ -7,7 +7,7 @@ team: [xuyc songcy]
 year: 2013
 % ----
 
-[+] stucture: 设计整体架构 05/28-05/31 @huangw
+[+] stucture: 设计整体架构 05/28-05/31 @huangw:05/30
   [++] readme: 列举需测试的功能 05/28-05/29 @huangw:05/28
   [++] cucumber: 设置cucumber测试环境 05/29-05/31 @huangw:05/29
 

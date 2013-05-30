@@ -12,6 +12,6 @@ year: 2013
   [++] cucumber: 设置cucumber测试环境 05/29-05/31 @huangw:05/29
 
 [+] tests: 通过测试验证rack-warden功能 05/28-05/31 @huangw
-  [++] middle: 测试rack middle ware 05/28-05/28 @huangw:30
+  [++] middle: 测试rack middle ware 05/28-05/28 @huangw:99
   [++] warden: 测试warden基本功能 05/28-05/29 @huangw
   [++] cookie: 验证warden所有cookie内容 05/29-05/31 @huangw

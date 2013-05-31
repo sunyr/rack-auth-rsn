@@ -41,11 +41,11 @@ Rack基础
 Rack Middleware
 ================
 
-所谓rack middleware依然是一个普通的rack app，只需要在construct函数里接收另一个app即可:
+所谓rack middleware依然是一个普通的rack app，只需要在construct函数里接收另一个app即可。
 
+注意middleware的执行顺序，参照`middleware.feature`，理解最后的body是如何拼接出来的。
 
-
-use和调用的顺序。
+[这篇博客](http://verboselogging.com/2010/01/20/proper-rack-middleware-ordering)有很好的UML图示。
 
 Rack::Warden和测试
 ========================
